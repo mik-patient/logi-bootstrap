@@ -5,11 +5,11 @@
   margin-top: 0;
   margin-bottom: $headings-margin-bottom;
   font-family: $headings-font-family;
-  font-style: $headings-font-style;
+  // font-style: $headings-font-style; // default is null, see https://github.com/twbs/bootstrap/blob/master/scss/_variables.scss#L302
   font-weight: $headings-font-weight;
   line-height: $headings-line-height;
   color: $headings-color;
-  text-transform: uppercase;
+  text-transform: uppercase; // adding uppercase style
 }
 
 h1 {
@@ -34,4 +34,19 @@ h5 {
 
 h6 {
   @extend %heading;
+}
+
+// Buttons
+.btn {
+  text-transform: uppercase;
+}
+
+// Badges
+.badge {
+  text-transform: uppercase;
+}
+
+// Navs
+.nav-link {
+  text-transform: uppercase;
 }
