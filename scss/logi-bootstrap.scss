@@ -1,16 +1,21 @@
+
 // 
 // [1] Override Bootstrap variables
 // 
-
 @import './scss/variables';
 
 // 
-// [2] App variables of the project
+// [2] Font feature
+// 
+@import './scss/fonts';
+
+// 
+// [3] App variables of the project
 // 
 // @import "./assets/scss/variables";
 
 // 
-// [3] Bootstrap components
+// [4] Bootstrap components
 // 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
@@ -49,11 +54,6 @@
 @import "../node_modules/bootstrap/scss/spinners";
 @import "../node_modules/bootstrap/scss/utilities";
 @import "../node_modules/bootstrap/scss/print";
-
-// 
-// [4] Font feature
-// 
-@import './scss/fonts';
 
 // 
 // [5] Custom style
