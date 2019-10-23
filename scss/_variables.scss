@@ -15,6 +15,12 @@ $cyan:                                         #17a2b8;
 $enable-rounded:                                 false;
 $enable-shadows:                                 false;
 
+// #############
+// ### Forms ###
+// #############
+
+$input-focus-box-shadow:     none; // Remove box shadow
+
 $link-color: #0090bf;
 
 $input-btn-font-size:                            1rem * .855;
@@ -27,5 +33,7 @@ $font-size-base:                                 1rem; // Assumes the browser de
 $font-size-sm:                                   $font-size-base * .875;
 $font-size-menu-item:                            $font-size-base * .9;
 
-// Badges
+// #############
+// ### Badges ###
+// #############
 $badge-padding-y: .28em !default; // Increase (+0.3em) the padding (Brown font takes more room)
