@@ -1,3 +1,51 @@
+/*
+ * Legal Disclaimer
+ *
+ * These Fonts are licensed only for use on these domains and their subdomains:
+ * logitech.com
+ *
+ * It is illegal to download or use them on other websites.
+ *
+ * While the @font-face statements below may be modified by the client, this
+ * disclaimer may not be removed.
+ *
+ * Lineto.com, 2015
+ */
+@font-face {
+  font-family: "Brown-Pro-Bold";
+  src: url("../dist/fonts/lineto-brown-pro-bold.eot");
+  src: url("../dist/fonts/lineto-brown-pro-bold.eot?#iefix") format("embedded-opentype"), url("../dist/fonts/lineto-brown-pro-bold.woff") format("woff"), url("../dist/fonts/lineto-brown-pro-bold.ttf") format("truetype"), url("../dist/fonts/lineto-brown-pro-bold.svg#lineto-brown-pro-bold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Brown-Pro-Thin";
+  src: url("../dist/fonts/lineto-brown-pro-thin.eot");
+  src: url("../dist/fonts/lineto-brown-pro-thin.eot?#iefix") format("embedded-opentype"), url("../dist/fonts/lineto-brown-pro-thin.woff") format("woff"), url("../dist/fonts/lineto-brown-pro-thin.ttf") format("truetype"), url("../dist/fonts/lineto-brown-pro-thin.svg#lineto-brown-pro-thin") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Brown-Pro-Light";
+  src: url("../dist/fonts/lineto-brown-pro-light.eot");
+  src: url("../dist/fonts/lineto-brown-pro-light.eot?#iefix") format("embedded-opentype"), url("../dist/fonts/lineto-brown-pro-light.woff") format("woff"), url("../dist/fonts/lineto-brown-pro-light.ttf") format("truetype"), url("../dist/fonts/lineto-brown-pro-light.svg#lineto-brown-pro-light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Brown-Pro-Regular";
+  src: url("../dist/fonts/lineto-brown-pro-regular.eot");
+  src: url("../dist/fonts/lineto-brown-pro-regular.eot?#iefix") format("embedded-opentype"), url("../dist/fonts/lineto-brown-pro-regular.woff") format("woff"), url("../dist/fonts/lineto-brown-pro-regular.ttf") format("truetype"), url("../dist/fonts/lineto-brown-pro-regular.svg#lineto-brown-pro-regular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Brown-Pro-Italic";
+  src: url("../dist/fonts/lineto-brown-pro-italic.eot");
+  src: url("../dist/fonts/lineto-brown-pro-italic.eot?#iefix") format("embedded-opentype"), url("../dist/fonts/lineto-brown-pro-italic.woff") format("woff"), url("../dist/fonts/lineto-brown-pro-italic.ttf") format("truetype"), url("../dist/fonts/lineto-brown-pro-italic.svg#lineto-brown-pro-italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 :root {
   --blue: #00b8fc;
   --indigo: #6610f2;
@@ -25,7 +73,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "BrownPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: "Brown-Pro-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
@@ -44,7 +92,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "BrownPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Brown-Pro-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -1303,7 +1351,7 @@ pre {
     background-color: #fff;
     border-color: #7ddcff;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 184, 252, 0.25); }
+    box-shadow: none; }
   .form-control::placeholder {
     color: #6c757d;
     opacity: 1; }
@@ -2492,7 +2540,7 @@ input[type="button"].btn-block {
     border-color: #00b8fc;
     background-color: #00b8fc; }
   .custom-control-input:focus ~ .custom-control-label::before {
-    box-shadow: 0 0 0 0.2rem rgba(0, 184, 252, 0.25); }
+    box-shadow: none; }
   .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
     border-color: #7ddcff; }
   .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
@@ -2640,7 +2688,7 @@ input[type="button"].btn-block {
   opacity: 0; }
   .custom-file-input:focus ~ .custom-file-label {
     border-color: #7ddcff;
-    box-shadow: 0 0 0 0.2rem rgba(0, 184, 252, 0.25); }
+    box-shadow: none; }
   .custom-file-input:disabled ~ .custom-file-label {
     background-color: #e9ecef; }
   .custom-file-input:lang(en) ~ .custom-file-label::after {
@@ -2685,11 +2733,11 @@ input[type="button"].btn-block {
   .custom-range:focus {
     outline: none; }
     .custom-range:focus::-webkit-slider-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 184, 252, 0.25); }
+      box-shadow: 0 0 0 1px #fff, none; }
     .custom-range:focus::-moz-range-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 184, 252, 0.25); }
+      box-shadow: 0 0 0 1px #fff, none; }
     .custom-range:focus::-ms-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 184, 252, 0.25); }
+      box-shadow: 0 0 0 1px #fff, none; }
   .custom-range::-moz-focus-outer {
     border: 0; }
   .custom-range::-webkit-slider-thumb {
@@ -3940,7 +3988,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "BrownPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Brown-Pro-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4024,7 +4072,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "BrownPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Brown-Pro-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6809,21 +6857,6 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
-
-@font-face {
-  font-family: BrownPro;
-  font-weight: 400;
-  src: url("./fonts/BrownPro-Regular.otf") format("opentype"); }
-
-@font-face {
-  font-family: BrownPro;
-  font-weight: 500;
-  src: url("./fonts/BrownPro-Bold.otf") format("opentype"); }
-
-@font-face {
-  font-family: BrownPro;
-  font-weight: 300;
-  src: url("./fonts/BrownPro-Light.otf") format("opentype"); }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
