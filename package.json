@@ -8,7 +8,7 @@
     "test": "node ./test/test.js"
   },
   "peerDependencies": {
-    "bootstrap": "^4.3.1",
-    "node-sass": "^4.12.0"
+    "bootstrap": "^4.4.1",
+    "node-sass": "^4.13.1"
   }
 }
