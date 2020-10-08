@@ -53,14 +53,21 @@ h6 {
   text-transform: uppercase;
 }
 
-// Navs
+// Applies to tabs and navs
+.nav-link {
+  text-transform: uppercase;
+}
+
+// Tabs
 .nav-tabs {
   background-color: $white;
   border-bottom: $nav-tabs-border-width solid transparent;
 
   .nav-link {
-    text-transform: uppercase;
     color: $body-color;
+
+    border-left: $nav-tabs-border-width solid $light;
+    border-right: $nav-tabs-border-width solid $light;
 
     &:hover {
       background-color: $primary;
@@ -71,6 +78,7 @@ h6 {
 
   .nav-link.active,
   .nav-item.show .nav-link {
+    color: $gray-900;
     border-color: $light;
     border-top-color: transparent;
     border-bottom: $nav-tabs-border-width solid $primary;
@@ -78,6 +86,7 @@ h6 {
 
   .nav-link.active {
     &:hover {
+      border-top: 0;
       border-color: $primary;
     }
   }
