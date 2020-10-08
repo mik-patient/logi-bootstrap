@@ -7018,10 +7018,12 @@ h1, h2, h3, h4, h5, h6 {
       color: #fff; }
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
-    color: #212529;
     border-color: #f8f9fa;
     border-top-color: transparent;
     border-bottom: 1px solid #00b8fc; }
-  .nav-tabs .nav-link.active:hover {
-    border-top: 0;
-    border-color: #00b8fc; }
+  .nav-tabs .nav-link.active {
+    color: #212529; }
+    .nav-tabs .nav-link.active:hover {
+      color: #fff;
+      border-top-color: transparent;
+      border-color: #00b8fc; }
