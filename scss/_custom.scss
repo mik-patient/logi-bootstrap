@@ -1,3 +1,11 @@
+// Default small size
+$input-height-inner-sm:                    add($input-line-height * 1em, $input-padding-y-sm * 2) !default;
+
+// Nav
+$nav-tabs-link-hover-border-color: $primary;
+$nav-tabs-border-width: 1px;
+
+
 // 
 // Text transform
 // 
@@ -47,6 +55,31 @@ h6 {
 }
 
 // Navs
-.nav-link {
-  text-transform: uppercase;
+.nav-tabs {
+  background-color: $white;
+  border-bottom: $nav-tabs-border-width solid transparent;
+
+  .nav-link {
+    text-transform: uppercase;
+    color: $body-color;
+
+    &:hover {
+      background-color: $primary;
+      border-color: $primary;
+      color: $white;
+    }
+  }
+
+  .nav-link.active,
+  .nav-item.show .nav-link {
+    border-color: $light;
+    border-top-color: transparent;
+    border-bottom: $nav-tabs-border-width solid $primary;
+  }
+
+  .nav-link.active {
+    &:hover {
+      border-color: $primary;
+    }
+  }
 }
