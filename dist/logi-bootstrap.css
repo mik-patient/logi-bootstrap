@@ -7002,20 +7002,26 @@ h1, h2, h3, h4, h5, h6 {
 .badge {
   text-transform: uppercase; }
 
+.nav-link {
+  text-transform: uppercase; }
+
 .nav-tabs {
   background-color: #fff;
   border-bottom: 1px solid transparent; }
   .nav-tabs .nav-link {
-    text-transform: uppercase;
-    color: #212529; }
+    color: #212529;
+    border-left: 1px solid #f8f9fa;
+    border-right: 1px solid #f8f9fa; }
     .nav-tabs .nav-link:hover {
       background-color: #00b8fc;
       border-color: #00b8fc;
       color: #fff; }
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
+    color: #212529;
     border-color: #f8f9fa;
     border-top-color: transparent;
     border-bottom: 1px solid #00b8fc; }
   .nav-tabs .nav-link.active:hover {
+    border-top: 0;
     border-color: #00b8fc; }
