@@ -78,15 +78,17 @@ h6 {
 
   .nav-link.active,
   .nav-item.show .nav-link {
-    color: $gray-900;
     border-color: $light;
     border-top-color: transparent;
     border-bottom: $nav-tabs-border-width solid $primary;
   }
 
   .nav-link.active {
+    color: $gray-900;
+
     &:hover {
-      border-top: 0;
+      color: $white;
+      border-top-color: transparent;
       border-color: $primary;
     }
   }
