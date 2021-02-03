@@ -1,16 +1,16 @@
 {
   "name": "logi-bootstrap",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Logitech styleguide with Bootstrap v4",
   "author": "Logitech",
   "license": "ISC",
   "scripts": {
-    "generate": "node ./bin/generate.js"
+    "build": "node ./bin/build.js"
   },
   "dependencies": {
-    "bootstrap": "^4.5.2"
+    "bootstrap": "^4.6.0"
   },
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^5.0.0"
   }
 }
