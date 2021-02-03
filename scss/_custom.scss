@@ -48,6 +48,17 @@ h6 {
   text-transform: uppercase;
 }
 
+// Remove Firefox outline
+button,
+a,
+input,
+select {
+  &:focus {
+    outline: none;
+  }
+}
+
+
 // Badges
 .badge {
   text-transform: uppercase;
@@ -90,6 +101,19 @@ h6 {
       color: $white;
       border-top-color: transparent;
       border-color: $primary;
+    }
+  }
+}
+
+// Tables
+.table {
+  thead {
+    th {
+      background-color: $table-head-bg;
+      color: $table-head-color;
+      text-transform: uppercase;
+      border-bottom: 0;
+      font-weight: $font-weight-base;
     }
   }
 }
