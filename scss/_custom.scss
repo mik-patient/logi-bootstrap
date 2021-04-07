@@ -1,13 +1,16 @@
 // Default small size
-$input-height-inner-sm:                    add($input-line-height * 1em, $input-padding-y-sm * 2) !default;
+$input-height-inner-sm: add(
+  $input-line-height * 1em,
+  $input-padding-y-sm * 2
+) !default;
 
 // Nav
 $nav-tabs-link-hover-border-color: $primary;
 $nav-tabs-border-width: 1px;
 
-// 
+//
 // Text transform
-// 
+//
 %heading {
   margin-top: 0;
   margin-bottom: $headings-margin-bottom;
@@ -57,7 +60,6 @@ select {
     outline: none;
   }
 }
-
 
 // Badges
 .badge {
