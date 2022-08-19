@@ -8,9 +8,9 @@
     "build": "node ./bin/build.js"
   },
   "dependencies": {
-    "bootstrap": "^4.6.0"
+    "bootstrap": "^4.6.2"
   },
   "devDependencies": {
-    "node-sass": "^6.0.1"
+    "node-sass": "^7.0.1"
   }
 }
