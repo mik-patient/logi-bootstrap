@@ -5,12 +5,9 @@
   "author": "Logitech",
   "license": "ISC",
   "scripts": {
-    "build": "node ./bin/build.js"
+    "build": "npx node-sass scss/logi-bootstrap.scss ./dist/logi-bootstrap.css"
   },
   "dependencies": {
     "bootstrap": "^4.6.2"
-  },
-  "devDependencies": {
-    "node-sass": "^7.0.1"
   }
 }
